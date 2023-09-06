@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Noto+Sans+Symbols:wght@300;600;700&family=Open+Sans:ital,wght@0,300;0,400;1,600&family=Roboto:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Mulish:wght@400;600;700&family=Noto+Sans+Symbols:wght@300;600;700&family=Open+Sans:ital,wght@0,300;0,400;1,600&family=Roboto:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans Symbols";
+}
+
+body {
+  max-width: 1440px;
+  height: 802px;
+  background-color: #2d4480;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+}
+.conteiner {
+  position: relative;
+  width: 288px;
+  height: 469px;
+  background-color: rgb(255, 255, 255, 1);
+  border-radius: 27px;
+  box-shadow: 5px 20px 50px 0px rgba(0, 0, 0, 0.6);
+  padding: 35px 50px 0 50px;
+}
+.title {
+  color: #292929;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.list {
+  list-style: none;
+  font-weight: 600;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+li:nth-child(5) {
+  margin-bottom: 0;
+}
+img {
+  width: 20px;
+  height: 20px;
+  margin-right: 23px;
+}
+
+.line {
+  margin: 27px 0 8px 0;
+}
+
+.free {
+  color: #292929;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 4.68px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 9px;
+}
+.forever {
+  color: #2d4480;
+  font-family: "Allan";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: right;
+  margin-right: 12px;
+}
+.button {
+  position: absolute;
+  top: 435px;
+  left: 55px;
+  width: 181px;
+  height: 68px;
+  border-radius: 34px;
+  border: none;
+  background: #ffbc0f;
+  color: #253868;
+  text-align: center;
+  font-family: Noto Sans Symbols;
+  font-weight: 600;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+.button:hover {
+  background-color: #ffce51;
+}
